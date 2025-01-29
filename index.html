@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal's Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Vishal's Tech Blog</div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" data-category="cybersecurity">Cybersecurity</a></li>
+                <li><a href="#" data-category="ai">AI & ML</a></li>
+                <li><a href="#" data-category="blockchain">Blockchain</a></li>
+                <li><a href="#" data-category="cloud">Cloud Computing</a></li>
+                <li><a href="#" data-category="iot">Iot</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <button id="themeToggle">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-post">
+            <h1>Latest in Tech</h1>
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Cybersecurity">
+                <div class="featured-content">
+                    <span class="tag">Cybersecurity</span>
+                    <h2>The Rise of Zero Trust Security</h2>
+                    <p>Explore how zero trust architecture is revolutionizing enterprise security in the post-pandemic
+                        world...</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="posts-grid" id="postsGrid">
+            <!-- Posts will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>TechInsights Blog</h3>
+                <p>Your source for the latest in technology and cybersecurity.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#" data-category="cybersecurity">Cybersecurity</a></li>
+                    <li><a href="#" data-category="ai">AI & ML</a></li>
+                    <li><a href="#" data-category="blockchain">Blockchain</a></li>
+                    <li><a href="#" data-category="cloud">Cloud Computing</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Subscribe</h3>
+                <form id="subscribeForm">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Vishal's Tech Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
